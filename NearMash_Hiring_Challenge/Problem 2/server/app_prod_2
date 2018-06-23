@@ -1,0 +1,4 @@
+Starting logging
+2018-06-07 15:25:00 INFO 200 1 2 128 "xyzsjdhjhffjf"
+2018-06-07 15:26:00 INFO 200 2 1 100 "klmnsdfkf"
+2018-06-07 15:26:00 ERROR 404 "Exception"

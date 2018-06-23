@@ -1,0 +1,68 @@
+Shanky is building a modal out of some sticks. He is stuck and needs your help to construct the last part of the modal. Sticks can be connected only at their end points. He needs to pick up three sticks. The constraints of selecting the sticks are
+
+1. Each sick can be connected to other two sticks.
+2. All three sticks are of different lengths. 
+
+Problem is he has a lot of sticks of different lengths and it would be helpful for him if he could find him the unique set of such sticks.
+
+Input: list of sticks lengths which are available. 
+
+Output: Number of unique sets of sticks which could be selected.
+
+e.g : 
+
+Input: 
+6 3 4 3 
+
+Output:
+1 
+
+Input: 
+3 4 7
+
+Output:
+0
+
+Explanation: only one unique set {6,3,4} can be formed where each stick is of different lengths and connected to each other. Two sticks of length 3 but will form only one unique set.
+Hint: shanky loves geometrical shapes and answer lies there. 
+
+Notes: 
+
+-Inputs will be checked from the test_input file. 
+-Each input is provided in a new line as a space separated list. 
+-Dump your output in the new_output file. 
+-Avoid hardcoding as final test will have considerably large number of inputs. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

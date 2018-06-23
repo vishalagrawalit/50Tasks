@@ -1,0 +1,103 @@
+Shanky is and engineer loves to work on his solution. He has multiple servers to handle the requests. Shanky also loves logging and logs the responses on the server. Someone suggested him utilise the logs for the mining information. The logs are in the form of tuple which indicates nature of the query and are newline separated. There are different logging levels such as info, error and warning. Info level has the information for the successful requests. Shanky needs help from you to provide meaningful information from these logs. 
+
+The endpoint for queries will be https://myapp/data/{opt}
+
+You need to design a system which will simulate the basic behaviour server i.e. it should respond to the api calls with the required data. 
+
+options allowed are: 
+
+user					list of user with the number of activities
+user?top=true 			user with most activity
+user?sort=asc			user ascending or descending sort 	
+resource				list of resource with the number of activities 
+resource?top= true  	Resource on which activity is performed 
+resource?sort=asc       resource user ascending or descending sort 
+
+Sorting is done on the basis of ids of resources and users.
+
+Each user and resource entry in the response should be of the following format. 
+
+E.g. For query 
+
+https://myapp/data/user
+
+The response should contain the list of all the users in following format:
+
+{
+	"data": [{
+			"userId": 1,
+			"activityNum": 2,
+			"dataConsumed": 243
+		},
+		{
+			"userId": 2,
+			"activityNum": 2,
+			"dataConsumed": 324
+		}
+	]
+}
+
+
+
+For wrong url the json should be error
+
+https://myapp/data/us
+
+{
+	"error": "Incomplete url"
+}
+
+
+Logs are in this format 
+
+2018-06-07 11:43:00 INFO response_code user_id resource_id data_size message
+2018-06-07 11:43:01 ERROR response_code message
+
+Total data consumed for an user will be the sum of the data_size field for that user in logs. Total activity corresponds to number of entries in logs for resource or user.
+
+There should be graceful error handling for wrong api calls. Please help him shanky in his work.
+
+- Logs of the server is in the servers folder.
+- The log files and inputs would be increased in final testing and therefore hardcoding needs to be avoided. 
+- Input file contains the API calls with new line separated. 
+- Dump output in the output file newline for each input. 
+- The output should be in json format. You may take a call
+- Kindly refer to the sample input and sample output file for reference.
+
+
+** you don't need to create an actual server just a program which parses string. API calls are just string commands which needs to be parsed and then acted upon. Don't get confused. 
+
+
+Kindly read inputs from input file and dump results in output file in json and line separated. 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
