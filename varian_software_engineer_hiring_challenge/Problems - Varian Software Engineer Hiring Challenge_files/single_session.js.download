@@ -1,0 +1,3 @@
+/*
+    Implement single session frontend.
+*/var send_ping=function(a,b,c){$.ajax({url:a,type:"POST",data:{url:b,group:c},dataType:"json",success:function(a,b,c){a.status==="ERROR"&&a.can_stonewall===!0&&(CLOSE_BROWSER=!0,addAlert("Another session has become active"),window.location.reload(!0))},statusCode:{403:function(a){CLOSE_BROWSER=!0,addAlert("Logging out, because another session has become active"),window.location.reload(!0)}}})};$(function(){$ss_ping=$("#ss-ping-url");var a=$ss_ping.attr("ajax"),b=$ss_ping.attr("data-url"),c=$ss_ping.attr("data-group"),d=setInterval(function(){send_ping(a,b,c)},ss_ghost_ttl*1e3)});
