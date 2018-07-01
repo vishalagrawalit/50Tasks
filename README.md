@@ -1,5 +1,5 @@
-# 50DaysofCode
-50DaysOfCode is the perfect companion to take the 50 days of code challenge and be successful.
+# 50Task
+50Task is the perfect companion to take the 50 code challenges and be successful.
 
 |          Task Number            |                       Task Name                 |                Tools Used                                            |                                     Task Details & Links                                       |    Status  |
 |----------------------|------------------------------|---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|-----------------------|
@@ -9,3 +9,5 @@
 |    Task 04          |             [HackerEarth- Varian Software Engineer Hiring Challenge](https://www.hackerearth.com/challenge/hiring/varian-software-engineer-hiring-challenge-1/)                      |  Framework - Django  |  [Problem Statement & Source Code](https://github.com/vishuvish/50Tasks/tree/master/varian_software_engineer_hiring_challenge)|     Ongoing      | 
 |    Task 05          |             Text to Speech Application                      |  Python, Google Text to Speech API  |  [Source Code](https://github.com/vishuvish/50Tasks/tree/master/text_to_speech)|         Completed         |
 |    Task 06          |             [HackerEarth - CAST Software Developer Hiring Challenge](https://www.hackerearth.com/challenge/hiring/cast-software-developer-hiring-challenge/)                      |  Python  |  [Problem Statement & Source Code](https://github.com/vishuvish/50Tasks/tree/master/cast_software_developer_hiring_challenge)|        Completed         |
+|    Task 07          |             [HackerEarth - Kellton Tech Developer Hiring Challenge](https://www.hackerearth.com/challenge/hiring/Kellton-Tech-Developer-Hiring-Challenge/)                      |  Python  |  [Problem Statement & Source Code](https://github.com/vishuvish/50Tasks/tree/master/kellton_tech_developer_hiring_challenge)|        Completed         |
+|    Task 08          |             [Natural Language Processing ](https://www.youtube.com/watch?v=M5ZcXm3HvtA)                      |  Language- Python <br/> Module- [NLTK](http://www.nltk.org/)  |  [Sample Codes](https://github.com/vishuvish/50Tasks/tree/master/Natural_Language_Processing)|        Ongoing         |
